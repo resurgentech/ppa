@@ -1,0 +1,30 @@
+Package: bitfluxcollector
+Version: 1.0.1
+Architecture: amd64
+Maintainer: peterjweir
+Installed-Size: 577
+Depends: libqt5core5a, libqt5network5, zlib1g, libminizip1, libtensorflow-c
+Filename: ./bitfluxcollector-1.0.1-1.x86_64.deb
+Size: 158170
+MD5sum: 189f719bb9ba3826d09a2b8c324f937a
+SHA1: c8be42969db077c456b92ac3b8d2afe51afef4c2
+SHA256: 76966f30e53f6b4ce52b1d55ae4d3c65ba6617d214b04aab7ec004d361e55934
+Section: devel
+Priority: optional
+Description: bitfluxcollector built using CMake
+
+Package: libtensorflow-c
+Version: 2.6.0
+Architecture: amd64
+Maintainer: Peter Weir
+Installed-Size: 1038386
+Provides: libtensorflow.so.2, libtensorflow_framework.so.2
+Filename: ./libtensorflow-c-2.6.0-1.x86_64.deb
+Size: 83483294
+MD5sum: d4b7429d9969a4931ca91f2e5e4143ad
+SHA1: 27c7450c61b3a9c482b8f8d77d9c5b91a1e91ed5
+SHA256: 3390b2de01b1c8df719e8317f48a2d1e34092c025cdeac1e917b99606ab3f6ed
+Section: devel
+Priority: optional
+Description: libtensorflow-c built using CMake
+
